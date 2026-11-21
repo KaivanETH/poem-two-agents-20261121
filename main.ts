@@ -2,6 +2,7 @@
 // Writes the poem to $MAKEFUN_OUTPUT_DIR/entry.txt (default /output/entry.txt).
 // Node 22, standard library only, deterministic: every run writes the same bytes.
 // Text: 260 Unicode code points, UTF-8, no trailing newline.
+// Revision 2: header clarified; the poem itself is unchanged.
 
 import { writeFileSync } from 'node:fs';
 import { join } from 'node:path';
